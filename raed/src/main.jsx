@@ -6,8 +6,6 @@ import Hero from '/src/Hero.jsx'
 import About from '/src/About.jsx'
 import Experience from '/src/Experience.jsx'
 import Arrow from '/src/Arrow.jsx'
-
-
 function App() {
   const[mode,setMode]=React.useState(false);
   function handleClick(){
